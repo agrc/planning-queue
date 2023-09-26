@@ -22,4 +22,4 @@ body:
   - type: input
     attributes:
       label: Issue Reference
-      description: Does this feature reference another issue
+      required: false
