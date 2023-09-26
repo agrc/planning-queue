@@ -16,11 +16,18 @@ body:
   - type: textarea
     attributes:
       label: Notes
-      description: Any extra context
+      description: Any extra context or information about the feature
     validations:
       required: false
-  - type: input
+  - type: textarea
     attributes:
+      label: Risks
+      description: What risks can we resolve, own, accept, or mitigate
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: refs #
       label: Issue Reference
     validations:
       required: false
