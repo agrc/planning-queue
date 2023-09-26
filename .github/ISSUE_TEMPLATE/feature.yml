@@ -1,11 +1,11 @@
-name: New Feature
-description: A new feature
+name: New Objective
+description: A new objective
 projects: ["agrc/6"]
 body:
   - type: textarea
     attributes:
       label: Benefit
-      description: What benefit does this feature bring to the business
+      description: What benefit does this objective bring to the business
     validations:
       required: false
   - type: textarea
@@ -18,7 +18,7 @@ body:
   - type: textarea
     attributes:
       label: Notes
-      description: Any extra context or information about the feature
+      description: Any extra context or information about the objective
     validations:
       required: false
   - type: textarea
