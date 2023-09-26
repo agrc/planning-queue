@@ -11,6 +11,8 @@ body:
     attributes:
       label: Acceptance Criteria
       description: What is the acceptance criteria to define completion
+      value: |
+      - [ ] 
     validations:
       required: false
   - type: textarea
@@ -27,7 +29,7 @@ body:
       required: false
   - type: input
     attributes:
-      value: refs #
+      value: 'refs #'
       label: Issue Reference
     validations:
       required: false
