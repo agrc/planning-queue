@@ -11,8 +11,7 @@ body:
     attributes:
       label: Acceptance Criteria
       description: What is the acceptance criteria to define completion
-      value: |
-      - [ ] 
+      value: "- [ ] "
       render: bash
     validations:
       required: false
