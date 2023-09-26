@@ -33,3 +33,8 @@ body:
       label: Issue Reference
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: |
+        > [!NOTE]
+        > This issue will be added to the `No Program Increment` container in the PI Planning Project board
