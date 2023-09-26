@@ -1,5 +1,6 @@
 name: New Feature
 description: A new feature
+projects: ["agrc/6"]
 body:
   - type: textarea
     attributes:
