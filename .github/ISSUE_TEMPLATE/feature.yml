@@ -5,13 +5,13 @@ body:
   - type: textarea
     attributes:
       label: Benefit
-      description: What benefit does this feature bring to the business
+      description: Define the proposed measurable benefit to the end user or business
     validations:
       required: false
   - type: textarea
     attributes:
       label: Acceptance Criteria
-      description: What is the acceptance criteria to define completion
+      description: Define the acceptance criteria to determine whether the implementation is correct and delivers the business benefit
       value: "- [ ] "
     validations:
       required: false
