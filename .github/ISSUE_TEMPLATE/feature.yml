@@ -22,4 +22,5 @@ body:
   - type: input
     attributes:
       label: Issue Reference
+    validations:
       required: false
