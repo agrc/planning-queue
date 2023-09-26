@@ -25,7 +25,7 @@ body:
       description: What risks can we resolve, own, accept, or mitigate
     validations:
       required: false
-  - type: markdown
+  - type: input
     attributes:
       value: refs #
       label: Issue Reference
