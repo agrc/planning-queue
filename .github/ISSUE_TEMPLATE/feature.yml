@@ -1,19 +1,19 @@
 name: New Feature
 description: A new feature
 body:
-  - type: markdown
+  - type: textarea
     attributes:
       label: Benefit
       description: What benefit does this feature bring to the business
     validations:
       required: false
-  - type: markdown
+  - type: textarea
     attributes:
       label: Acceptance Criteria
       description: What is the acceptance criteria to define completion
     validations:
       required: false
-  - type: markdown
+  - type: textarea
     attributes:
       label: Notes
       description: Any extra context
