@@ -20,6 +20,6 @@ body:
     validations:
       required: false
   - type: input
-    attributs:
+    attributes:
       label: Issue Reference
       description: Does this feature reference another issue
