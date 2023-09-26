@@ -36,5 +36,5 @@ body:
   - type: markdown
     attributes:
       value: |
-        \> [!NOTE]
-        \> This issue will be added to the `No Program Increment` container in the PI Planning Project board
+        > [!NOTE]
+        > This issue will be added to the `No Program Increment` container in the PI Planning Project board
