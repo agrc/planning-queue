@@ -1,0 +1,16 @@
+name: New Feature
+description: A new feature
+title: '<title>'
+body:
+  - type: textarea
+    attributes:
+      label: Benefit
+      description: What benefit does this feature bring to the business
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Acceptance Criteria
+      description: What is the acceptance criteria to define completion
+    validations:
+      required: false
