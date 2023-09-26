@@ -13,7 +13,6 @@ body:
       label: Acceptance Criteria
       description: What is the acceptance criteria to define completion
       value: "- [ ] "
-      render: markdown
     validations:
       required: false
   - type: textarea
