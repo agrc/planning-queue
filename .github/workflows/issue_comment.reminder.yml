@@ -1,0 +1,14 @@
+name: Issue Comment (Reminder)
+
+on:
+  issue_comment:
+    types: [created, edited]
+
+jobs:
+  reminder:
+    name: 👀 Create reminder
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 👀 check for reminder
+        uses: agrc/create-reminder-action@v1
