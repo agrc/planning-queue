@@ -27,14 +27,20 @@ body:
       description: What risks can we resolve, own, accept, or mitigate
     validations:
       required: false
-  - type: input
+  - type: textarea
     attributes:
-      value: "refs #"
+      value: "- #"
       label: Issue Reference
+      description: Reference issues that either depend on this feature or that this feature depends on
     validations:
       required: false
   - type: markdown
     attributes:
       value: |
         > [!NOTE]
-        > This issue will be added to the `No Program Increment` container in the PI Planning Project board
+        > This issue will be added to the `No Program Increment` container in the PI Planning Project board.
+  - type: markdown
+    attributes:
+      value: |
+        > [!IMPORTANT]
+        > Please remember to assign the relevant people to this issue as well as the team, relevant labels, size, and the business value.
