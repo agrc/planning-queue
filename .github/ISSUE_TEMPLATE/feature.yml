@@ -2,6 +2,11 @@ name: New Feature
 description: A new feature
 projects: ["agrc/6"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!NOTE]
+        > This issue will be added to the `No Program Increment` container in the PI Planning Project board.
   - type: textarea
     attributes:
       label: Benefit
@@ -37,10 +42,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        > [!NOTE]
-        > This issue will be added to the `No Program Increment` container in the PI Planning Project board.
-  - type: markdown
-    attributes:
-      value: |
         > [!IMPORTANT]
-        > Please remember to assign the relevant people to this issue as well as the team, relevant labels, size, and the business value.
+        > Remember to assign the relevant people and labels before creating this issue.
+        > After the issue has been created update the team, size, and the business values.
