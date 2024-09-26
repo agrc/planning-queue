@@ -24,12 +24,14 @@ body:
     attributes:
       label: Notes
       description: Any extra context or information about the feature
+      value: "- "
     validations:
       required: false
   - type: textarea
     attributes:
       label: Risks
       description: What risks can we resolve, own, accept, or mitigate
+      value: "- "
     validations:
       required: false
   - type: textarea
